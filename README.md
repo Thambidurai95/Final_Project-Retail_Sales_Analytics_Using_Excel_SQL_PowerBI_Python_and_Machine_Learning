@@ -1,1 +1,1 @@
-# Final-Project---Retail-Sales-Using-Excel-SQL-Power-BI-Python-and-Machine-LearningAnalytics-
+# Final Project - Retail Sales Analytics Using Excel SQL PowerBI Python and Machine Learning
