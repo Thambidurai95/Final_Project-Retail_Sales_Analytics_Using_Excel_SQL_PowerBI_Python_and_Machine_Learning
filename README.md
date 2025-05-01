@@ -141,6 +141,7 @@ Summarized the datatsets through df.describe(), df.info(), df.value_counts()
    * print(customers_df.value_counts())
      
  **Orders**
+ 
     * print(orders_df.describe())
     * print(orders_df.info())
     * print(orders_df.value_counts())
