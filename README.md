@@ -65,9 +65,10 @@
 
 **4) Total Sales by Store**
 
-    * Converted dates to standard excel date format
-    * Numerical fields are converted to number formats
-    * Text fields are converted to text formats
+    select stores.store_id,store_name,round(sum(total_price),2) as Total_sales from stores
+inner join orders on stores.store_id=orders.store_id
+inner join order_items on orders.order_id=order_items.order_id
+group by store_id,store_name;
 
 **5) Top 5 Selling Products**
 
