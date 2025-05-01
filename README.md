@@ -181,12 +181,30 @@ Summarized the datatsets through df.describe(), df.info(), df.value_counts()
 
 **3) Calculate RFM Features for Customers**
 
-    Recency, Frequency and Monetary calculated for each customer by merging the datasets
+Recency, Frequency and Monetary calculated for each customer by merging the datasets
+
+    * pd.merge(orders_df,order_items_df,on='order_id')
+    * pd.merge(merged_orders,customers_df,on='customer_id')
+    * merged_dataset['order_date'].max() + pd.Timedelta(days=1)
+    * merged_dataset.groupby('customer_id').agg({
+      'order_date':lambda x: (freezed_date- x.max()).days, 
+      'order_id':'nunique', 
+      'total_price':'sum' 
+      }).reset_index()
+    * rfm.columns = ['customer_id','recency','frequency','monetary']
 
 **4) Customer Segmentation using KMeans (Basic Clustering)**
 
-    * Normalized RFM using MinMaxScaler
-    * Applied KMeans to segment customers into 4 groups
+**Normalized RFM using MinMaxScaler**
+
+    * MinMaxScaler().fit_transform(rfm[['recency','frequency','monetary']])
+    
+**Applied KMeans to segment customers into 4 groups**
+
+    * KMeans(n_clusters=4,random_state=40)
+    * kmeans = KMeans(n_clusters=4,random_state=40)
+    * rfm['segment'] = kmeans.fit_predict(rfm_normalized)
+    * print(rfm['segment'].value_counts()
 
 **Scatter Plot**
 
@@ -194,8 +212,25 @@ Summarized the datatsets through df.describe(), df.info(), df.value_counts()
 
 **5) Export Segmentation Results to SQL**
 
-    * Exported the segmentation table from Python to MySQL
-    * Dataset attached here in the name of Overall Dataset for reference
+    * create_engine('mysql+pymysql://root:password2924@127.0.0.1/final_project')
+    * rfm.to_sql('customer_segments',engine,if_exists='replace',index=False)
+
+**Customer Segments Table - Type of Segments**
+
+    * alter table customer_segments add column type_of_segments varchar(50);
+    * update customer_segments
+          set type_of_segments = case
+              when segment = 0 then 'at_risk'                            
+              when segment = 1 then 'loyal'                            
+              when segment = 2 then 'new' 
+              when segment = 3 then 'need_attention'                          
+              else type_of_segments
+          end
+      where segment in (3,2,1,0);
+
+**Sample customer segments data from the dataset**
+
+![image](https://github.com/user-attachments/assets/92128f5d-e322-4918-8261-2f2bb4197eaa)
 
 # Phase 4: Power BI – Visualization & Dashboarding
 
