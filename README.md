@@ -162,9 +162,20 @@ Summarized the datatsets through df.describe(), df.info(), df.value_counts()
 
  **Pie Chart**
 
+    * orders_df.groupby(["order_status"]).agg(Total = ("order_status","count")).sort_values("Total",ascending =[False]).reset_index()
+    * order_status_count.plot(kind="pie",x="order_status",y="Total",color="black")
+
 ![image](https://github.com/user-attachments/assets/f53377e4-99c6-4aa3-bf4f-2d20f65daffc)
 
 **Line Chart**
+
+    * pd.merge(customers_df,orders_df,on="customer_id")
+    * customer_orders.groupby(["state"]).agg(total_orders = ("order_id","count")).reset_index()
+    * plt.plot(state_orders["state"],state_orders["total_orders"])
+      plt.xlabel("state")
+      plt.ylabel("total_orders")
+      plt.title("Total Orders Per State")
+      plt.show()
 
 ![image](https://github.com/user-attachments/assets/5c84faad-bd08-4cd2-a9bf-9496307f886c)
 
