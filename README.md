@@ -215,7 +215,7 @@ Recency, Frequency and Monetary calculated for each customer by merging the data
     * create_engine('mysql+pymysql://root:password2924@127.0.0.1/final_project')
     * rfm.to_sql('customer_segments',engine,if_exists='replace',index=False)
 
-**Customer Segments Table - Type of Segments**
+**Customer Segments Table - Type of Segments in MySQL**
 
     * alter table customer_segments add column type_of_segments varchar(50);
     * update customer_segments
@@ -240,7 +240,7 @@ Recency, Frequency and Monetary calculated for each customer by merging the data
 
 **1) Connect Power BI to SQL**
 
-    * Connected the Power BI with MySQL database and imported the datasets.
+    Connected the Power BI with MySQL database and imported the datasets.
 
 **2) Create Relationships Between Tables**
 
