@@ -1,4 +1,4 @@
-# Final Project - Retail Sales Analytics Using Excel SQL PowerBI Python and Machine Learning
+![image](https://github.com/user-attachments/assets/51960930-2310-46b6-9484-e68b9ce70375)# Final Project - Retail Sales Analytics Using Excel SQL PowerBI Python and Machine Learning
 
 # Phase 1: Excel – Data Cleaning & Preparation
 
@@ -124,12 +124,31 @@
 
 **1) Load Data from SQL**
 
-    * Installed and imported the required libraries in Python
-    * Connected the MySQL database with Python and imported the datasets
+Installed and imported the required libraries in Python
+
+    * pymysql.connect(host='127.0.0.1',user='root',passwd='password2924')
+    * pd.read_sql_query("select * from final_project.customers",myconnection)
+    * pd.read_sql_query("select * from final_project.orders",myconnection)
+    * pd.read_sql_query("select * from final_project.order_items",myconnection)
 
 **2) Basic EDA (Exploratory Data Analysis)**
 
-    Summarized the datatsets through df.describe(), df.info(), df.value_counts()
+Summarized the datatsets through df.describe(), df.info(), df.value_counts()
+
+ **Customers**
+   * print(customers_df.describe())
+   * print(customers_df.info())
+   * print(customers_df.value_counts())
+     
+ **Orders**
+   * print(orders_df.describe())
+   * print(orders_df.info())
+   * print(orders_df.value_counts())
+ 
+ **Order Items**
+   * print(order_items_df.describe())
+   * print(order_items_df.info())
+   * print(order_items_df.value_counts())
 
  **Bar Chart**
 
