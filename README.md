@@ -48,46 +48,47 @@
 
 # Phase 2: SQL – Database Management and Querying
 
-**1) Standardize Column Headers**
+**1) Create Tables Based on ERD**
 
-    snake_case header format
+![Final Project - ER Diagram Snapshot](https://github.com/user-attachments/assets/472ef639-53fb-41f1-b2d4-93601cd634fc)
 
-**2) Remove Duplicates**
+**2) Import CSVs into SQL**
 
-    No duplicate records found
+* **Datasets imported through table data import wizard in the final_project database.**
+![image](https://github.com/user-attachments/assets/d877a4fd-c06c-46e9-86e1-f57f456e7312)
 
-**3) Handle Missing Values**
+**3) Inner Join for Order Details**
 
     NULL values replaced by NA
 
-**4) Data Type Conversion**
+**4) Total Sales by Store**
 
     * Converted dates to standard excel date format
     * Numerical fields are converted to number formats
     * Text fields are converted to text formats
 
-**5) Data Validation**
+**5) Top 5 Selling Products**
 
     Dropdown created for order status with options delivered, shipped, processing, packed
 
-**6) Create New Derived Columns**
+**6) Customer Purchase Summary**
 
     Total price calculates through the below-mentioned formula from the available data
              * Total_price = (list_price * quantity) / discount
 
-**7) Merge Lookup Data**
+**7) Segment Customers by Total Spend**
 
     Product names merged to order_items dataset using VLOOKUP formula
 
-**8) Create Basic Pivot Table**
+**8) Staff Performance Analysis**
 
     Pivot table created to summarize the total sales by each category
 
-**9) Sort and Filter for Outliers**
+**9) Stock Alert Query**
 
     Created filter option and highlighted the products with very high price of above 10000/- using conditional formatting
 
-**10) Prepare Final CSVs**
+**10) Create Final Segmentation Table**
 
     * Prepared the final cleaned datasets in CSV file format to import in SQL
     * Dataset attached here in the name of Overall Dataset for reference
