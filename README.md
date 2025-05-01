@@ -12,13 +12,13 @@
 
 **3) Handle Missing Values**
 
-     * **NULL values replaced by NA**
+    NULL values replaced by NA
 
 **4) Data Type Conversion**
 
-* **Converted dates to standard excel date format**
-* **Numerical fields are converted to number formats**
-* **Text fields are converted to text formats**
+    * Converted dates to standard excel date format
+    * Numerical fields are converted to number formats
+    * Text fields are converted to text formats
 
 **5) Data Validation**
 
