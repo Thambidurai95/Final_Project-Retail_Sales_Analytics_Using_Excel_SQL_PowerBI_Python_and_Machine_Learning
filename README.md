@@ -136,9 +136,10 @@ Installed and imported the required libraries in Python
 Summarized the datatsets through df.describe(), df.info(), df.value_counts()
 
  **Customers**
-   * print(customers_df.describe())
-   * print(customers_df.info())
-   * print(customers_df.value_counts())
+
+    * print(customers_df.describe())
+    * print(customers_df.info())
+    * print(customers_df.value_counts())
      
  **Orders**
  
@@ -147,6 +148,7 @@ Summarized the datatsets through df.describe(), df.info(), df.value_counts()
     * print(orders_df.value_counts())
  
  **Order Items**
+    
     * print(order_items_df.describe())
     * print(order_items_df.info())
     * print(order_items_df.value_counts())
