@@ -2,7 +2,7 @@
 
 # Excel – Data Cleaning & Preparation
 
-1) **Standardize Column Headers**
+**1) Standardize Column Headers**
 
 
 
