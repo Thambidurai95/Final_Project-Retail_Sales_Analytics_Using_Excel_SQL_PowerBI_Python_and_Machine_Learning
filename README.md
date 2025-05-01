@@ -22,11 +22,7 @@
 
 **5) Data Validation**
 
-* **Dropdown created for order status**
-      * Delivered
-      * Shipped
-      * Processing
-      * Packed
+* **Dropdown created for order status with options delivered, shipped, processing, packed**
 
 **6) Create New Derived Columns**
 
