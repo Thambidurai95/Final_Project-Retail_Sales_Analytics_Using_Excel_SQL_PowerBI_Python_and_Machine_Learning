@@ -155,6 +155,9 @@ Summarized the datatsets through df.describe(), df.info(), df.value_counts()
 
  **Bar Chart**
 
+    *  order_items_df.groupby(["category_name"]).agg(total_revenue = ("total_price","sum")).sort_values("total_revenue",ascending = [True]).reset_index()
+    *  category_revenue.plot(kind="bar",x="category_name",y="total_revenue",color="black")
+
  ![image](https://github.com/user-attachments/assets/53e1a49b-ffab-4fda-bf9b-f35d62d36b0a)
 
  **Pie Chart**
