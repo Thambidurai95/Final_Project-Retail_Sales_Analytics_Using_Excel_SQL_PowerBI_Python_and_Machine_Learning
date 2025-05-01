@@ -230,7 +230,7 @@ Recency, Frequency and Monetary calculated for each customer by merging the data
 
 **Sample customer segments data from the dataset**
 
-![image](https://github.com/user-attachments/assets/92128f5d-e322-4918-8261-2f2bb4197eaa)
+![image](https://github.com/user-attachments/assets/d1a3a914-71a0-4311-8ef1-c90d2c72dbec)
 
 # Phase 4: Power BI – Visualization & Dashboarding
 
