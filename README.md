@@ -58,10 +58,10 @@
 
 **3) Inner Join for Order Details**
 
-select orders.order_id,customer_id,order_items.item_id,order_items.product_id,products.product_name,order_items.category_name,
-order_items.quantity,order_items.list_price,order_items.discount,order_items.total_price,orders.order_status from orders 
-inner join order_items on orders.order_id=order_items.order_id
-inner join products on order_items.product_id=products.product_id;
+    select orders.order_id,customer_id,order_items.item_id,order_items.product_id,products.product_name,order_items.category_name,
+    order_items.quantity,order_items.list_price,order_items.discount,order_items.total_price,orders.order_status from orders 
+    inner join order_items on orders.order_id=order_items.order_id
+    inner join products on order_items.product_id=products.product_id;
 
 **4) Total Sales by Store**
 
