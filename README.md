@@ -4,11 +4,11 @@
 
 **1) Standardize Column Headers**
 
-     * **snake_case header format**
+    snake_case header format
 
 **2) Remove Duplicates**
 
-     * **No duplicate records found**
+    No duplicate records found
 
 **3) Handle Missing Values**
 
