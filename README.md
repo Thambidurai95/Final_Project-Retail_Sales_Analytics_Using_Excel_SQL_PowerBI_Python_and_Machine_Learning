@@ -26,7 +26,7 @@
 
 **6) Create New Derived Columns**
 
-    * Total price calculates through the below-mentioned formula from the available data
+    Total price calculates through the below-mentioned formula from the available data
               Total_price = (list_price * quantity) / discount
 
 **7) Merge Lookup Data**
