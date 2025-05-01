@@ -120,3 +120,121 @@
     * Customer segments table was exported directly from Python ML to MySQL
     * Dataset attached here in the name of Overall Dataset for reference
 
+# Phase 3: Python and ML Tasks
+
+**1) Load Data from SQL**
+
+    * Installed and imported the required libraries in Python
+    * Connected the MySQL database with Python and imported the datasets
+
+**2) Basic EDA (Exploratory Data Analysis)**
+
+    Summarized the datatsets through df.describe(), df.info(), df.value_counts()
+
+ **Bar Chart**
+
+ ![image](https://github.com/user-attachments/assets/53e1a49b-ffab-4fda-bf9b-f35d62d36b0a)
+
+ **Pie Chart**
+
+![image](https://github.com/user-attachments/assets/f53377e4-99c6-4aa3-bf4f-2d20f65daffc)
+
+**Line Chart**
+
+![image](https://github.com/user-attachments/assets/5c84faad-bd08-4cd2-a9bf-9496307f886c)
+
+**3) Calculate RFM Features for Customers**
+
+    Recency, Frequency and Monetary calculated for each customer by merging the datasets
+
+**4) Customer Segmentation using KMeans (Basic Clustering)**
+
+    * Normalized RFM using MinMaxScaler
+    * Applied KMeans to segment customers into 4 groups
+
+**Scatter Plot**
+
+![image](https://github.com/user-attachments/assets/7ab6fbb3-86c7-4fdd-abb5-e33c3d892b51)
+
+**5) Export Segmentation Results to SQL**
+
+    * Exported the segmentation table from Python to MySQL
+    * Dataset attached here in the name of Overall Dataset for reference
+
+# Phase 4: Power BI – Visualization & Dashboarding
+
+**Home Page**
+
+![image](https://github.com/user-attachments/assets/ac99b452-dcc2-4372-ae2a-3fe14db5d700)
+
+**1) Connect Power BI to SQL**
+
+    * Connected the Power BI with MySQL database and imported the datasets.
+
+**2) Create Relationships Between Tables**
+
+![image](https://github.com/user-attachments/assets/52f4e639-86b8-44cf-9fab-9c1ecb5c99b6)
+
+**3) Sales Overview Report**
+
+ **Sales Over Time**
+ 
+![image](https://github.com/user-attachments/assets/968241c6-1922-4d45-9b6a-9ae3e06eb0c2)
+
+ **Monthly Sales Trend**
+ 
+![image](https://github.com/user-attachments/assets/d0e9f82e-40d1-40e9-9d72-4731255697ff)
+
+ **Total Orders Placed**
+ 
+![image](https://github.com/user-attachments/assets/8b86b0e1-2871-42b4-85a0-7082ed345e8e)
+
+**4) Top Products by Sales**
+
+![image](https://github.com/user-attachments/assets/b56df44b-4529-4ce5-b772-e711a710902d)
+
+**5) Customer Purchase Analysis**
+
+![image](https://github.com/user-attachments/assets/6072d9bb-0a54-4544-802c-f9cb55cf862b)
+
+**6) Sales by Store Map**
+
+![image](https://github.com/user-attachments/assets/bfc4fd29-f190-4beb-8e08-a50636984224)
+
+**7) Low Stock Alert Dashboard**
+
+![image](https://github.com/user-attachments/assets/8fd9437b-2e4d-4c3f-90a9-c2c8c56cd65d)
+
+**8) Interactive Filters and Slicers**
+
+![image](https://github.com/user-attachments/assets/33be811c-ac66-44f9-937e-67e2c7ef1b93)
+
+**9) Staff Performance Report**
+
+![image](https://github.com/user-attachments/assets/25f9db24-4096-4948-b238-6c2d523f3382)
+
+**10) Consolidated Dashboard Page**
+
+![image](https://github.com/user-attachments/assets/1eddc52c-681b-4c38-9710-bb2c99867a35)
+
+**11) Import customer_segments Table**
+
+    * Imported the segmentation table from MySQL to Power BI
+    * Dataset attached here in the name of Overall Dataset for reference
+
+**12) Visualize Customer Segments**
+
+![image](https://github.com/user-attachments/assets/4c9b7cc4-a184-4165-b86b-a27d73c05a83)
+
+**13) Segment-Level Revenue Breakdown**
+
+![image](https://github.com/user-attachments/assets/68843d3e-c3f5-415b-ac3c-2e93e78be3c5)
+
+**14) Use Segments as Report Filters**
+
+    Interactive slicers are created to filter across dashboards for the customer_segments
+
+**15) Segment Heatmap**
+
+![image](https://github.com/user-attachments/assets/c5c49c30-6445-407e-b096-786e96f48af0)
+
