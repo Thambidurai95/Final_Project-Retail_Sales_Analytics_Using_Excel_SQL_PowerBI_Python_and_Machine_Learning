@@ -1,4 +1,4 @@
-![image](https://github.com/user-attachments/assets/51960930-2310-46b6-9484-e68b9ce70375)# Final Project - Retail Sales Analytics Using Excel SQL PowerBI Python and Machine Learning
+# Final Project - Retail Sales Analytics Using Excel SQL PowerBI Python and Machine Learning
 
 # Phase 1: Excel – Data Cleaning & Preparation
 
@@ -136,9 +136,9 @@ Installed and imported the required libraries in Python
 Summarized the datatsets through df.describe(), df.info(), df.value_counts()
 
  **Customers**
-    * print(customers_df.describe())
-    * print(customers_df.info())
-    * print(customers_df.value_counts())
+   * print(customers_df.describe())
+   * print(customers_df.info())
+   * print(customers_df.value_counts())
      
  **Orders**
     * print(orders_df.describe())
