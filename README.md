@@ -22,29 +22,29 @@
 
 **5) Data Validation**
 
-* **Dropdown created for order status with options delivered, shipped, processing, packed**
+    Dropdown created for order status with options delivered, shipped, processing, packed
 
 **6) Create New Derived Columns**
 
-* **Total price calculates through the below-mentioned formula from the available data**
-      * **Total_price = (list_price * quantity) / discount**
+    * Total price calculates through the below-mentioned formula from the available data
+              Total_price = (list_price * quantity) / discount
 
 **7) Merge Lookup Data**
 
-* **Product names merged to order_items dataset using VLOOKUP formula**
+    Product names merged to order_items dataset using VLOOKUP formula
 
 **8) Create Basic Pivot Table**
 
-* **Pivot table created to summarize the total sales by each category**
+    Pivot table created to summarize the total sales by each category
 
 **9) Sort and Filter for Outliers**
 
-* **Created filter option and highlighted the products with very high price of above 10000/- using conditional formatting**
+    Created filter option and highlighted the products with very high price of above 10000/- using conditional formatting
 
 **10) Prepare Final CSVs**
 
-* **Prepared the final cleaned datasets in CSV file format to import in SQL**
-* **Dataset attached here in the name of Overall Dataset for reference**
+    * Prepared the final cleaned datasets in CSV file format to import in SQL
+    * Dataset attached here in the name of Overall Dataset for reference
 
 
 
