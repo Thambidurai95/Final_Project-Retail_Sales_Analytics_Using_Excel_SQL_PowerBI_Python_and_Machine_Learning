@@ -39,7 +39,7 @@
 
 **9) Sort and Filter for Outliers**
 
-    Created filter option and highlighted the products with very high price of above 10000/- using conditional formatting
+    Created filter option and highlighted the products with the very high price of above 10000/- and low price below 200/- using conditional formatting
 
 **10) Prepare Final CSVs**
 
