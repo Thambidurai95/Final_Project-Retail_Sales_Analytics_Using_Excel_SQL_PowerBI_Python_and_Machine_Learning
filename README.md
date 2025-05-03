@@ -50,7 +50,7 @@
 
 **1) Create Tables Based on ERD**
 
-![Final Project - ER Diagram Snapshot](https://github.com/user-attachments/assets/472ef639-53fb-41f1-b2d4-93601cd634fc)
+![Final Project - ER Diagram Snapshot](https://github.com/user-attachments/assets/7b096837-82c4-4417-80ad-5a5353a01cb3)
 
 **2) Import CSVs into SQL**
 
