@@ -278,7 +278,7 @@ Recency, Frequency and Monetary calculated for each customer by merging the data
 
 **8) Interactive Filters and Slicers**
 
-![image](https://github.com/user-attachments/assets/33be811c-ac66-44f9-937e-67e2c7ef1b93)
+![image](https://github.com/user-attachments/assets/27a88da7-cb32-41dd-b4c7-6e883e74d316)
 
 **9) Staff Performance Report**
 
@@ -286,7 +286,7 @@ Recency, Frequency and Monetary calculated for each customer by merging the data
 
 **10) Consolidated Dashboard Page**
 
-![image](https://github.com/user-attachments/assets/1eddc52c-681b-4c38-9710-bb2c99867a35)
+![image](https://github.com/user-attachments/assets/0ab2ba82-f2b2-4a2b-9c36-f480dbbb3658)
 
 **11) Import customer_segments Table**
 
